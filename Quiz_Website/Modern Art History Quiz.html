@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" CONTENT="Interactive art history quiz from the Renaissance to the modern period featuring art slies">
+    <meta name="keywords" CONTENT="Art history, interactive quiz, art slides">
+    <title>Art History Quiz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <link href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+    <link rel='stylesheet' type='text/css' href='Slide quiz.css'/>
+    <script language="Javascript" type="text/javascript">
+    function my_search_google()  {
+      var query = document.getElementById("my-google-search").value;
+      window.open("http://google.com/search?q=" + query
+    + "%20site:" + "http://kingofquiz.net");
+    }
+    </script>
+  </head>
+ <body>
+ <header><nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+   <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://www.kingofquiz.net/"><p>King of Quiz</p></a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="M vs H Quiz Challenge.html">MVH Challenge<span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+          <a href="Science quizzes.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Science<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Anatomy.html">Anatomy</a></li>
+            <li><a href="Chemistry quizzes.html">Chemistry</a></li>
+            <li><a href="Biology.html">Biology</a></li>
+          </ul>
+        </li>
+        <li><a href="Vocab.html">Vocab</a></li>
+        <li><a href="Art History.html">Art History</a></li>
+        <li><a href="Trivia Quizzes.html">Trivia</a></li>
+        <li><a href="Geography Quizzes.html">Geography</a></li>
+        <li><a href="Literature Quizzes.html">Literature</a></li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search" onsubmit="my_search_google()">
+      <div class="form-group">
+      <input type="text" id="my-google-search" class="form-control" placeholder="Search">
+      </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+ </nav>
+</header>
+  <main>
+   <div class="container-fluid">
+    <div id="intro">
+    <h1>Art History Quiz</h1>
+     <p>This quiz tests your knowledge of modern art history, and is a great way to prepare for tests. To play, pick the answer that corresponds with the question and the slide. You can enlarge the picture by hovering over it. Click the "Next Question" button after each answer to advance to the next question.</p>
+     <button class="btn btn-primary" id="play">Play!</button>
+   </div>
+   <div id="game">
+   <div id="scoreBox">0 pts</div>
+   <div id="artSlides" class="carousel slide" data-ride="carousel" data-interval= false>
+   <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Rembrandt_van_Rijn-De_Nachtwacht-1642.jpg/800px-Rembrandt_van_Rijn-De_Nachtwacht-1642.jpg">
+     </div>
+    <div class="item">
+      <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/72/MosesinStPeterinVincoliRome.jpg/640px-MosesinStPeterinVincoliRome.jpg">
+      </div>
+      <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Jacques-Louis_David_020.jpg/800px-Jacques-Louis_David_020.jpg">
+      </div>
+      <div class="item">
+        <img src=" http://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Raffaello_Sanzio_-_Madonna_and_Child_%28The_Large_Cowper_Madonna%29_-_WGA18657.jpg/640px-Raffaello_Sanzio_-_Madonna_and_Child_%28The_Large_Cowper_Madonna%29_-_WGA18657.jpg">
+      </div>
+      <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/The_Calling_of_Saint_Matthew_by_Carvaggio.jpg/640px-The_Calling_of_Saint_Matthew_by_Carvaggio.jpg">
+      </div>
+      <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Leonardo_da_Vinci_-_Mona_Lisa.jpg/640px-Leonardo_da_Vinci_-_Mona_Lisa.jpg">
+      </div>
+      <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Van_Eyck_-_Arnolfini_Portrait.jpg/640px-Van_Eyck_-_Arnolfini_Portrait.jpg">
+      </div>
+      <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/48/El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_in_Google_Earth.jpg/800px-El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_in_Google_Earth.jpg">
+      </div>
+      <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jheronimus_Bosch_023.jpg/1280px-Jheronimus_Bosch_023.jpg">
+      </div>
+      <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/640px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg">
+      </div>
+      <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/VanGogh-starry_night.jpg/800px-VanGogh-starry_night.jpg">
+      </div>
+      <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Paris-notre-dame-facade.jpg/640px-Paris-notre-dame-facade.jpg">
+      </div>
+      <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Renoir14.jpg/1024px-Renoir14.jpg">
+      </div>
+      <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/The_Anatomy_Lesson.jpg/800px-The_Anatomy_Lesson.jpg">
+      </div>
+      <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg/1280px-Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg">
+      </div>
+      <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Sanzio_01.jpg/800px-Sanzio_01.jpg">
+      </div>
+      <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Edgar_Degas_-_The_Ballet_Class_-_Google_Art_Project.jpg/640px-Edgar_Degas_-_The_Ballet_Class_-_Google_Art_Project.jpg">
+      </div>
+      <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Winslow_Homer_-_Sunlight_on_the_Coast_-_Google_Art_Project.jpg/1024px-Winslow_Homer_-_Sunlight_on_the_Coast_-_Google_Art_Project.jpg">
+      </div>
+        <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Death_of_Marat_by_David.jpg/640px-Death_of_Marat_by_David.jpg">
+        </div>
+        <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/0/03/Cassattopera.jpg">
+        </div>
+        <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Rubens_%28Ecce_Homo%29.jpg/640px-Rubens_%28Ecce_Homo%29.jpg">
+        </div>
+        <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Vincent_van_Gogh_%281853-1890%29_-_Wheat_Field_with_Crows_%281890%29.jpg/1280px-Vincent_van_Gogh_%281853-1890%29_-_Wheat_Field_with_Crows_%281890%29.jpg">
+        </div>
+        <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Fallingwater_570316cv.jpg/640px-Fallingwater_570316cv.jpg">
+        </div>
+        <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/f/fc/%C3%89douard_Manet_-_Le_D%C3%A9jeuner_sur_l%27herbe.jpg">
+        </div>
+        <div class="item">
+        <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Michelangelo_-_Creation_of_Adam.jpg/1024px-Michelangelo_-_Creation_of_Adam.jpg">
+      </div>
+     </div>
+  </div>
+     <div class="jumbotron">
+      <div class="row">
+      <div class="col-xs-12 col-md-8">
+       <figure><img src="http://wondrouspics.com/wp-content/uploads/2012/04/Question_mark_3d.png"/></figure>
+      <p id= "questionParagraph" class="text-center"></p>
+      <p id= "answerParagraph" class="text-center"></p>
+      </div>
+      </div>
+      </div>
+      <div id ="answerSection">
+      <button id="answerA" value="A" class="active"><p>A)</p></button><button id="answerB" value="B" class="active"><p>B)</p></button><br />
+      <button id="answerC" value="C" class="active"><p>C)</p></button><button id="answerD" value="D" class="active"><p>D)</p></button><br />
+      </div>
+      <a href="Art History.html"><button id="exit" class="btn btn-danger">Exit</button></a> <button id="next" class="btn btn-success" data-slide="next">Next Question >></button>
+      <form name="answerBox"><input id="answer" type="text" name="response"/>
+        </div>
+      </div>
+      </main>
+   <footer><p>Created by Plato's Cave Media</p></footer>
+   <script src= "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+   <script type="text/javascript" src="Modern Art History Quiz.js"></script>
+ </body>
+</html>

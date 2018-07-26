@@ -1,0 +1,170 @@
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: block;
+  letter-spacing: -1px;
+  color: #fff;
+  background-color: black;
+ }
+header p {
+  font-size: 30px;
+  font-family: Gothic;
+}
+header p:hover {
+  text-shadow: 0px 3.5px 1px #9B999E;
+}
+body {
+  background: linear-gradient(#2089C9, #0CE8DD, #D0F7E8, white);
+  z-index: -2;
+}
+#siteHighlights {
+  height: 400px;
+}
+#siteHighlights img {
+  height: 350px;
+  width: 450px;
+}
+.carousel-caption blockquote {
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+}
+.cite {
+  font-size: 8px;
+}
+span {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+}
+.homePic img{
+  width: 550px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+}
+.quizSelection {
+  list-style-image: url("question mark bullet.jpg");
+  font-size: 18px;
+  margin-left: 45px;
+}
+main {
+  z-index: 3
+}
+main p {
+  margin-left: 45px;
+  font-size: 18px;
+  margin-right: 45px;
+  padding-bottom: 15px;
+}
+.tagline {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: -1px;
+}
+footer {
+  background: #2E2E2D;
+  color: #fff;
+  width: 100%;
+  margin-top: 400px;
+  height: 40px;
+  display: fixed;
+}
+#plato {
+  padding-top: 10px;
+  float: left;
+  margin-left: 15px;
+}
+.fb-share-button {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+#background img {
+  z-index: -1;
+  opacity: .3;
+  position: fixed;
+  height: 625px;
+  margin-left: 375px;
+}
+#mvh {
+  float: left;
+  margin-left: 85px;
+  padding-right: 15px;
+  text-align: center;
+  padding-top: 15px;
+}
+#anatomy {
+  float: left;
+  padding-right: 15px;
+  text-align: center;
+  padding-top: 15px;
+}
+#chemistry {
+  float: left;
+  padding-right: 15px;
+  text-align: center;
+  padding-top: 15px;
+}
+#biology {
+  float: left;
+  text-align: center;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+#vocab {
+  float: left;
+  text-align: center;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+#arthistory {
+  float: left;
+  margin-left: 150px;
+  text-align: center;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+#trvia {
+  float: left;
+  text-align: center;
+  padding-right: 15px;
+  padding-top: 15px;
+  }
+#geography {
+  float: left;
+  text-align: center;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+#literature {
+  float: left;
+  text-align: center;
+  padding-top: 15px;
+}
+.linkpic {
+  opacity: .7;
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+}
+.linkpicWh {
+  opacity: .7;
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  background-color: white;
+}
+.linkpic:hover {
+  opacity: 1;
+}
+.linkpicWh:hover {
+  opacity: 1;
+}
+.contact a {
+  padding-top: 10px;
+  float: left;
+  padding-left: 25px;
+  color: #fff;
+}

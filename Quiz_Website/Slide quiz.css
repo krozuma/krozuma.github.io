@@ -1,0 +1,153 @@
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  display: block;
+  letter-spacing: -1px;
+  color: #fff;
+  background-color: black;
+}
+header p {
+  font-size: 30px;
+  font-family: Gothic;
+}
+header p:hover {
+  text-shadow: 0px 3.5px 1px #9B999E;
+}
+img {
+  height: 125px;
+  width: 125px;
+  float: left;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+.jumbotron {
+  margin-top: -190px;
+  height: 355px;
+  border: 2px solid black;
+  box-shadow: 12px 15px 5px #424240;
+}
+.jumbotron p {
+  font-size: 1.370em;
+  font-weight: bolder;
+}
+#artSlides img {
+  height: 275px;
+  width: 350px;
+  float: right;
+  padding-top: 0px;
+  margin-top: 2px;
+  display: inline-block;
+}
+#artSlides img:hover {
+  zoom: 150%;
+}
+body {
+  background: linear-gradient(#2089C9, #0CE8DD, #D0F7E8, white);
+}
+#answer {
+  display: none;
+}
+footer {
+    background: #2E2E2D;
+    color: #fff;
+    margin-top: 400px;
+    display: fixed;
+    height: 40px;
+    padding-top: 25px;
+    text-indent: 15px;
+}
+#answerA {
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  width: 225px;
+  text-align: left;
+  font-size: 18px;
+  opacity: .86;
+}
+ #answerA:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+ #answerB {
+  background-color: black;
+  margin-bottom: 3px;
+  color: white;
+  width: 225px;
+  text-align: left;
+  font-size: 18px;
+  opacity: .86;
+ }
+ #answerB:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+ #answerC {
+  background-color: black;
+  margin-right: 3px;
+  margin-bottom: 5px;
+  color: white;
+  width: 225px;
+  text-align: left;
+  font-size: 18px;
+  opacity: .86;
+ }
+ #answerC:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+ #answerD {
+  background-color: red;
+  font-weight: bold;
+  color: black;
+  width: 225px;
+  text-align: left;
+  font-size: 18px;
+  opacity: .86;
+ }
+ #answerD:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+#return {
+  border-radius: 5px;
+  height: 25px;
+  width: 55px;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  margin-right: 4px;
+  background-color: #18D618;
+}
+#answerParagraph {
+  color: red;
+}
+#scoreBox {
+font-size: 1.880em;
+font-weight: bold;
+color: #57FF03;
+margin-top: 5px;
+margin-bottom: -10px;
+}
+#play {
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  width: 125px;
+}
+h1 {
+  text-align: center;
+}
+#game {
+  display: none;
+}
+#intro {
+  font-weight: bold;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+.fb-share-button {
+  margin-top: 15px;
+  margin-left: 20px;
+}

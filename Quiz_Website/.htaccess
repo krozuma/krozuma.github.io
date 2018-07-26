@@ -1,0 +1,10 @@
+
+AddHandler application/x-httpd-php5 .html .php .htm  
+
+#DirectoryIndex index.html index.wml index.cgi index.shtml index.jsp index.js index.jp index.php4 index.php3 index.php index.phtml index.htm default.htm default.html home.htm
+
+
+
+AddOutputFilterByType SUBSTITUTE text/html
+Substitute "s|</body>| <script type=\"text/javascript\">     var loc = ((\"https:\" == document.location.protocol) ? \"https://analytics.\" : \"http://analytics.\");     document.write(unescape(\"%3Cscript src='\" + loc + \"sitewit.com/v3/648581695/sw.js' type='text/javascript'%3E%3C/script%3E\")); </script>   </body>|ni"
+Options -Indexes

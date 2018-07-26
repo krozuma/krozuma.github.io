@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>General Quiz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+  <link href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+  <link rel='stylesheet' type='text/css' href='Quiz site.css'/>
+   </head>
+  <body>
+    <header class="text-center">King of Quiz</header>
+    <main>
+       <div class="container-fluid">
+        <figure><img src="http://wondrouspics.com/wp-content/uploads/2012/04/Question_mark_3d.png"/></figure>
+      <div id="scoreBox">0 pts</div>
+      <div class="jumbotron">
+        <p id= "questionParagraph" class="text-center"></p>
+        <p id= "answerParagraph" class="text-center"></p>
+      </div>
+      <form name="answerBox"><input id="answer" type="text" name="response" placeholder="Type answer here" onclick="this.value=''"/>
+        <button id="return">Return</button><br />
+        <button id="exit">Exit</button> <button id="next">Next Question >></button>
+      </div>
+    </main>
+    <footer></footer>
+     <script src= "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+     <script type="text/javascript" src="Quiz.js"></script>
+    </body>
+ </html>
