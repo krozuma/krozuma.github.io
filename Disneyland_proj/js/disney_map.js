@@ -12,7 +12,7 @@ var animateMarkers;
 //Loads weather data using the weatherundergound API
 jQuery(document).ready(function ($) {
   $.ajax({
-        url : "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?id=5323810&units=imperial&appid=d4e70d2dd55fe0b0e50b46a61b5a5a46",
+        url : "https://api.openweathermap.org/data/2.5/weather?id=5323810&units=imperial&appid=d4e70d2dd55fe0b0e50b46a61b5a5a46",
         dataType : "jsonp",
         success : function (parsed_json) {
             icon = parsed_json['weather']['0']['icon'];
